@@ -1,0 +1,6 @@
+services:
+  weather-app: # Proper Service Name
+    build: .
+    ports:
+      - "5000:5000" # Port mapping (External:Internal)
+    restart: always # Restart Policy (Mandatory)
